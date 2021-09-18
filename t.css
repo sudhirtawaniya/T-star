@@ -1,0 +1,196 @@
+#inputsearch{
+	width:250px;
+	transition:all 0.2s;
+}
+.card{
+	 width: 8rem;
+	 margin:4px;
+	 transition:all 0.2s;
+}
+.card:hover{
+	width:8.2rem;
+	
+	 box-shadow: 0px 0px 30px #0033FF;
+
+}
+a{
+	color:white !important;
+}
+.flex{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	position:absolute;
+	max-width:770px;
+	height:500px;
+	margin:auto;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	margin-left:4px;
+	margin-right:4px;
+	
+	
+	background-image:linear-gradient(#12c2e9,#c471ed,1.5);
+	
+	
+}
+.mainlog{
+	margin-top:40px;
+	height:40px;
+	font-size:40px;
+
+	
+	opacity:0.3;
+	color:white;
+	
+}
+i{
+	font-size:28px;
+}
+
+.wlct{
+	display:flex;
+	justify-content:center;
+	color:#B1A296;
+	font-style:bold;
+	font-size:1.5rem;
+	position:relative;
+	top:2rem;
+	left:0.1rem;
+	
+}
+html{
+	
+	width:100%;
+	height:100%;
+	//background-image:linear-gradient(45deg,#12c2e9,#c471ed);
+	background-color:orange;
+	background-repeat:no-repeat;
+	//background-image:linear-gradient(95deg,#ff0084,#35001b);
+}
+.tbox{
+	
+	
+	border-radius:17px 0px 0px 17px;
+}
+.rightform{
+	
+	height:100%;
+	padding-left:1rem;
+	border:2px solid black;
+	border-left:none;
+	transform:translate(0px);
+	transition:all 1s ;
+	border-radius:0px 15px 15px 0px;
+	
+	//background-image:linear-gradient(95deg,#8A2387,#E94057);
+	background-color:white;
+	
+}
+
+.leftform{
+	display:flex;
+	justify-content:center;
+
+	height:550px;
+		
+		
+	padding-left:1rem;
+	//background-image:linear-gradient(#de6161,#2657eb);
+	border:2px solid black;
+	transform:translate(0px);
+	border-radius:15px 0px 0px 15px;
+	background-color:#0275d8;
+	transition:all 1s;
+	
+
+overflow:hidden;
+}
+
+
+.minipar{
+	display:block;
+	color:black;
+	font-size:1.2rem;
+}
+ #username,#password,#cpassword,#name{
+	
+	
+	height:2.4rem;
+	margin:2rem 1rem 1rem 2rem;
+	border:none;
+	outline:none;
+	border-bottom:0.5px solid white;
+	padding-left:1rem;
+	width:15rem;
+	color:white;
+	background-color:transparent;
+	transition:all 1s;
+}
+
+input[type="submit"]{
+	
+	height:2.4rem;
+	width:15rem;
+	margin:2rem 1rem 1rem 2rem;
+}
+ #username:hover,#password:hover,#cpassword:hover,#name:hover{
+	width:17rem;
+	border-bottom:1.5px solid white;
+ 
+}
+hr{
+	min-width:17rem;
+	max-width:17rem;
+	width:17rem;
+	
+}
+.fp,.changemode{
+	text-decoration:none;
+}
+#cpassword,#password{
+	margin-top:0rem;
+	
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+@media screen and (max-width:767px){
+	.rightform{
+		
+		display:none;
+	}
+	.leftform{
+		
+		border-radius:4px;
+		background-color:rgba(2,117,216,0.5);
+	}
+	html{
+		
+		background-image:url("C:\\Users\\USER\\Downloads\\Tlogo1.png");
+		background-position:50% 50%;
+	}
+	input[type="submit"]{
+		background-color:rgb(0,0,0,0.3);
+	}
+	
+}
